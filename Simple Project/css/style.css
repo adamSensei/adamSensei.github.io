@@ -1,0 +1,207 @@
+{
+	box-sizing: border-box;
+}
+
+body{
+	font-size: 16px;
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	color: #adaaac;
+	width: 100%;
+	height:100%;
+
+}
+
+.clearfix {
+	display: table;
+	content: ' ';
+	clear: both;
+
+}
+
+
+.top_bar {
+	width: 100%;
+	height:100%;
+	
+}
+
+
+body header {
+	background-image: url("../img/background.jpg");
+	position: relative;
+	height: 1000px;
+}
+
+body header .navbar {
+	margin-top: -50px;
+	background-color: transparent;
+	max-width: 1200px;
+	font-size: 16px;
+	border: none;
+}
+
+.navbar li {
+    float: left;
+    display: inline;
+    margin: 0 auto;
+
+}
+
+.navbar ul {
+	float: right;
+}
+
+.navbar a {
+    display: block;
+    width: 100px;
+    color: #adaaac;
+}
+
+
+.title {
+	text-align: center;
+}
+
+.hero_title {
+	font-family: 'Teko', Arial, Helvetica, sans-serif;
+	font-size: 120px;
+	color: white;
+	z-index: 1;
+	text-transform: uppercase;
+	font-weight: lighter;
+}
+
+.hero.container { 
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+.title p {
+	font-family: 'Titillium Web', Arial, Helvetica, sans-serif;
+	font-size: 22px;
+	width: 70%;
+	margin: 0 auto;
+}
+
+.explore {
+	font-family: 'Teko', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	background: white;
+    padding: 0px 70px 0px 70px;
+	color: black;
+	margin-top: 20px;
+}
+
+.hero.container.explore {
+	margin-top: 500px;
+	position: absolute;
+}
+
+section h2 {
+	font-family: 'Teko', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 40px;
+	margin: 0 auto;
+	color: black;
+	text-align: center;
+	margin-top: 40px;
+
+
+}
+
+.tesla {
+	float: left;
+
+}
+
+.curiosity {
+	float: right;
+}
+
+.sturhling {
+	float: left;
+}
+
+.penguin {
+	float: right;
+}
+
+article {
+	display: inline-block;
+	max-width: 1200px;
+	margin:0 auto;
+	text-align: center;
+
+}
+
+h3 {
+	font-family: 'Teko', Helvetica, sans-serif;
+	font-size: 30px;
+	color: black;
+}
+
+article p {
+	font-family: "Titillium Web", Helvetica, sans-serif;
+	font-size: 14;
+	font-style: 300;
+}
+
+.cta {
+	background: #f63c3c;
+	display: inline-block;
+    width: 100%;
+	height: 250px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+.cta h2 {
+	color: white;
+	padding-top: 20px;
+}
+
+.cta p {
+	margin-top: 20px;
+}
+
+.cta a {
+	font-family: 'Teko', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	background: white;
+    padding: 0px 70px 0px 70px;
+	color: black;
+}
+
+.show_more {
+	text-align: center;
+	color:#f63c3c ;
+	display: block;
+}
+
+.button {
+display: block;
+width: 200px;
+margin: 0 auto;
+margin-top: 20px;
+}
+
+.contact{
+	height: 440px;
+}
+
+.contact h2{
+	font-family: 'Teko', Arial, Helvetica, sans-serif;
+	text-transform: uppercase;
+	color: black;
+}
+
+.contact.social {
+	display: inline-block;
+	margin: 0 auto;
+}
+
+
