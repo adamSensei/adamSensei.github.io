@@ -101,7 +101,7 @@ section.container {
 }
 
 .bg1, .bg2, .bg3, .bg4{
-	background: url(img/desk_senese_1.jpeg) center center no-repeat fixed;
+	background: url(../img/desk_senese_1.jpeg) center center no-repeat fixed;
 	background-size: cover;
 	height: 100vh;
 	width:100%;
