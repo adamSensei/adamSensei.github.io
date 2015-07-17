@@ -4,8 +4,6 @@
 	<meta charset="UTF-8">
 	<title>Adam Senese</title>
 	<link rel="stylesheet" type="text/css" href="portfolio.css">
-<!-- 	<link rel="stylesheet" type="text/css" href="skeleton.css">
- -->
 	<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
 
 	<meta name="viewport" content="width=device-width, initial-scale=1">
@@ -27,56 +25,64 @@ WebFontConfig = { fontdeck: { id: '58224' } };
 <body>
 
 <!-- 	NAV AND LOGO -->
-
+	<section class="container intro" id="home">
 	<header>
 		<nav class="nav navbar container">
-		<ul class="">
-			<li class="navLink"><a href="#">Portfolio</a></li>
-			<li class="home_button"><a href=""><img src="img/senese_logo1.png" alt="senese_logo"></a></li>
-			<li class="navLink"><a href="">About</a></li>
-		</ul>
+			<ul class="">
+				<li class="navLink"><a href="#portfolio">Portfolio</a></li>
+				<li class="home_button"><a href="#home"><img src="img/senese_logo1.png" alt="senese_logo"></a></li>
+				<li class="navLink"><a href="#about">About</a></li>
+			</ul>
 		</nav>
 	</header>
 
 	<!-- HERO MESSAGE -->
 
-	<section class="container">
-		<main class="intro clearfix row">
 		<h1 class="">Hi! I'm Adam Senese and I'm an Interaction Designer located in Chicago.</h1>
-		</main>
 	</section>
 
-	<div class="top_of_page"><a href="#">UP</a></div>
 
 <!-- 	PORTFOLIO STARTS HERE -->
+		<div class="bg1" id="portfolio">
+			<h2 class="vertical-center">Portfolio</h2>
+		</div>
+
 
 	<section class="portfolio mainsection clearfix">
-		<h2>Portfolio</h2>
 		<div class="tilewrapper container">
-			<article class="tile row">
+			<article class="tile row clearfix">
 				<div class="goright">
-				<h3 class="goleft page_link"><a href="#">Den</a></h3>
-				<p></p>
+					<h3 class="page_link ib"><a href="#">Den</a></h3>
+						<p class="ib">This for short description UX/UI</p>
 				</div>
-				<div class="image-wrapper">
+				<div class="image-wrapper goleft">
 					<img src="img/macDesktop.jpeg" alt="">
 				</div>
 			</article>
-			<article class="tile row">
-				<div class="goleft">
-				<h3 class="goright page_link"><a href="#">Pulseband</a></h3>
-				<p></p>
+			<article class="tile row clearfix">
+				<div class="goleft ib">
+					<h3 class="page_link ib"><a href="#">Pulseband</a></h3>
+						<p class="ib">This for short description UX/UI</p>
 				</div>
-				<div class="image-wrapper">
+				<div class="goright image-wrapper">
 					<img src="img/macDesktop.jpeg" alt="">
 				</div>
 			</article>
-			<article class="tile row">
-				<div class="goright">
-				<h3 class="goleft page_link"><a href="#">Client Project</a></h3>
-				<p></p>
+			<article class="tile row clearfix">
+				<div class="goright ib">
+					<h3 class="page_link ib"><a href="#">Client Project</a></h3>
+						<p class="ib">This for short description UX/UI</p>
 				</div>
-				<div class="image-wrapper">
+				<div class="image-wrapper goleft">
+					<img src="img/macDesktop.jpeg" alt="">
+				</div>
+			</article>
+			<article class="tile row clearfix">
+				<div class="goleft ib">
+					<h3 class="page_link ib"><a href="#">Pulseband</a></h3>
+						<p class="ib">This for short description UX/UI</p>
+				</div>
+				<div class="goright image-wrapper">
 					<img src="img/macDesktop.jpeg" alt="">
 				</div>
 			</article>
@@ -85,18 +91,20 @@ WebFontConfig = { fontdeck: { id: '58224' } };
 
 	<!-- ABOUT SECTION HERE -->
 
-	<section class="about">
+	<section class="about" id="about">
 		<h2>About</h2>
-		<img src="#" alt="">
-		<p>Denticle herring bream monkfish ribbon eel carp lined sole cobbler central mudminnow. Bull shark firefish electric catfish driftwood catfish hake Siamese fighting fish warmouth pearleye grenadier." Longfin escolar tilefish Black mackerel suckermouth armored catfish walu surgeonfish Pacific hake. Coho salmon; coolie loach trout frogfish Blind shark garibaldi minnow giant sea bass lighthousefish, "amago zingel, pike eel; longfin dragonfish." Clown loach Shingle Fish pike characid longnose dace armored searobin striped bass streamer fish smelt-whiting slimy mackerel. Ladyfish catfish, driftfish, ghost knifefish dorab Blobfish, eeltail catfish Blobfish ridgehead leopard danio flashlight fish, pearleye shovelnose sturgeon huchen, trench, electric ray sawfish gray mullet!</p>
+			<img src="#" alt="">
+			<p>Denticle herring bream monkfish ribbon eel carp lined sole cobbler central mudminnow. Bull shark firefish electric catfish driftwood catfish hake Siamese fighting fish warmouth pearleye grenadier." Longfin escolar tilefish Black mackerel suckermouth armored catfish walu surgeonfish Pacific hake. Coho salmon; coolie loach trout frogfish Blind shark garibaldi minnow giant sea bass lighthousefish, "amago zingel, pike eel; longfin dragonfish." Clown loach Shingle Fish pike characid longnose dace armored searobin striped bass streamer fish smelt-whiting slimy mackerel. Ladyfish catfish, driftfish, ghost knifefish dorab Blobfish, eeltail catfish Blobfish ridgehead leopard danio flashlight fish, pearleye shovelnose sturgeon huchen, trench, electric ray sawfish gray mullet!</p>
 
 	</section>
+
+	<a href="#" class="top_of_page">UP</a>
 
 <!-- CALL TO ACTION -->
 
 	<section class="cta mainsection clearfix">
-		<h2>Get in touch.</h2>
-		<h3>adam@senese.io</h3>
+		<h2>Let's work together</h2>
+			<h3>adam@senese.io</h3>
 	</section>
 
 
@@ -108,13 +116,15 @@ WebFontConfig = { fontdeck: { id: '58224' } };
 			<div class="footer-left">
 
 				<p class="footer-links">
-					<a href="#">Portfolio</a>
-					·
-					<a href="#">Blog</a>
-					·
-					<a href="#">Resume</a>
-					·
-					<a href="#">About</a>
+					<a href="#home">Home</a>
+					_
+					<a href="#portfolio">Portfolio</a>
+					_
+					<a href="#about">About</a>
+					_
+					<a href="#">CV</a>
+					_
+					<a href="http://www.adamsen.se">Blog</a>
 				</p>
 
 			</div>
