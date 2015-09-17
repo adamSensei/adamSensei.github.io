@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+	<title>Adam Senese -- Works</title>
+	<meta name="author" content="Matthew Howell" />
+	<meta name="description" content="fullPage continuous scrolling demo." />
+	<meta name="keywords"  content="fullpage,jquery,demo,scroll,loop,continuous" />
+	<meta name="Resource-type" content="Document" />
+	<link rel="stylesheet" type="text/css" href="../jquery.fullPage.css" />
+	<link rel="stylesheet" type="text/css" href="examples.css" />
+	<link rel="stylesheet" href="../animate.css">
+	<link rel="shortcut icon" href="../img/favicon.png">
+
+	<!--[if IE]>
+		<script type="text/javascript">
+			 var console = { log: function() {} };
+		</script>
+	<![endif]-->
+
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.3/jquery.min.js"></script>
+	<script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.9.1/jquery-ui.min.js"></script>
+
+	<script type="text/javascript" src="../jquery.fullPage.js"></script>
+	<script type="text/javascript" src="examples.js"></script>
+	<script type="text/javascript">
+		$(document).ready(function() {
+			$('#fullpage').fullpage({
+			  sectionsColor: ['white', 'white', 'white', 'white', 'white'],
+			  anchors: ['firstPage', 'secondPage', '3rdPage', '4thpage', 'infoPage'],
+			  menu: '#menu',
+			  continuousVertical: true
+			});
+		});
+	</script>
+
+<script type="text/javascript">
+WebFontConfig = { fontdeck: { id: '58224' } };
+
+(function() {
+  var wf = document.createElement('script');
+  wf.src = ('https:' == document.location.protocol ? 'https' : 'http') +
+  '://ajax.googleapis.com/ajax/libs/webfont/1/webfont.js';
+  wf.type = 'text/javascript';
+  wf.async = 'true';
+  var s = document.getElementsByTagName('script')[0];
+  s.parentNode.insertBefore(wf, s);
+})();
+</script>
+
+</head>
+<body>
+
+
+<nav class="fixed-nav-bar">
+		<div class="nav-span">
+		<img class="logo" src="../img/senese.svg" alt="logo">
+		<ul class="nav-right">
+			<li class="nav-links"><a href="works.html" class="link link--e selected" data-letters="Works">Works</a></li>
+			<li class="nav-links"><a href="me.html" class="link link--e" data-letters="Me">Me</a></li>
+		</ul>
+		</div>
+</nav>
+
+
+<ul id="menu">
+	<li data-menuanchor="firstPage" class="active animated rollIn"><a href="#firstPage"></a></li>
+	<li data-menuanchor="secondPage" class="animated rollIn"><a href="#secondPage"></a></li>
+	<li data-menuanchor="3rdPage" class="animated rollIn"><a href="#3rdPage"></a></li>
+	<li data-menuanchor="4thpage" class="animated rollIn"><a href="#4thpage"></a></li>
+	<li data-menuanchor="infoPage" class="animated rollIn circle"><a href="#infoPage" class="circle"></a></li>
+</ul>
+
+<div id="fullpage">
+	<div class="section" id="section0">
+		<a href="pulseband.html"><img src="../img/pulse_mock.png" alt="pulse" class="img iphone pulse animated fadeInUp"></a>
+		<div class="intro">
+		<h1 class="animated fadeIn"><a href="pulseband.html">Pulseband</a></h1>
+		<p class="animated fadeIn">UX, IxD, UI, Branding</p>
+	</div>
+	</div>
+	<div class="section" id="section1">
+		<a href="apple.html"><img src="../img/brick-wall_imac2013_right.png" alt="apple" class="img mac apple animated fadeInUp"></a>
+		<div class="intro">
+			<h1 class="animated fadeInRight"><a href="apple.html">Apple Store</a></h1>
+			<p class="animated fadeInRight">COMING SOON</p>
+		</div>
+	</div>
+	<div class="section" id="section2">
+		<a href="designation.html"><img src="../img/pulse_mock.png" alt="designation" class="img iphone designation animated fadeInUp"></a>
+		<div class="intro">
+			<h1 class="animated fadeInRight"><a href="designation.html">DESIGNATION</a></h1>
+			<p class="animated fadeInRight">IxD, FED, UI</p>
+		</div>
+	</div>
+	<div class="section" id="section3">
+		<a href="pursuits.html"><img src="../img/brick-wall_imac2013_right.png" alt="pursuits" class="img mac pursuits animated fadeInUp"></a>
+		<div class="intro">
+			<h1 class="animated fadeInRight"><a href="pursuits.html">PURSUITS</a></h1>
+			<p class="animated fadeInRight">UI</p>
+		</div>
+	</div>
+	<div class="section" id="section4">
+		<div class="center  animated fadeIn">
+			<p>I'm available for design &amp; development projects.</p>
+			<h1><a href="">adam@senese.io</a></h1>
+		</div>
+
+	</div>
+</div>
+
+</body>
+</html>

@@ -1,0 +1,185 @@
+body{
+  position: relative;
+  margin: 0;
+  min-height: 80%;
+}
+
+html body {
+  max-width: 100%;
+}
+
+html {
+  height: 100%;
+  box-sizing: border-box;
+  background-color: white;
+}
+
+.left-half {
+  margin: 0 auto;
+  margin-top: 88px;
+  max-width: 560px;
+  font-size: .55em;
+  background-color: white;
+}
+
+.right-half img {
+  border-radius: 100%;
+  max-width: 300px;
+  text-align: center;
+}
+
+.right-half {
+  margin: 44px 0 0 0;
+  text-align: center;
+  font-size: .7em;
+}
+
+.bio h4 {
+  padding: 44px 0 0 0%;
+  color: #111111;
+  font-size: 2.5em;
+}
+
+.bio p {
+ padding: 30px 0% 60px 0%;
+  width: 100%;
+  line-height: 1.7em;
+  color: #111111;
+}
+
+p a {
+  color: #111111;
+  border-bottom: 1px dotted;
+  -webkit-transition: color .3s;
+    -moz-transition:    color .3s;
+    -ms-transition:     color .3s;
+    -o-transition:      color .3s;
+    transition:         color .3s;
+}
+
+p a.linkedin:hover {
+  color: #0077b5;
+}
+
+p a.dribbble:hover {
+  color: #ea4c89;
+}
+
+p a.github:hover {
+  color: #4078c0;
+}
+
+p a.twitter:hover {
+  color: #55acee;
+}
+
+.buttons {
+  line-height: 0em;
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  -webkit-transition: color .3s;
+    -moz-transition:    color .3s;
+    -ms-transition:     color .3s;
+    -o-transition:      color .3s;
+    transition:         color .3s;
+}
+
+.buttons a {
+  margin: 10px;
+
+}
+.connect_button {
+  background-color: #111111;
+  font-size: 1.7em;
+  padding:15px;
+  color: white;
+  -webkit-transition: background-color .3s;
+    -moz-transition:    background-color .3s;
+    -ms-transition:     background-color .3s;
+    -o-transition:      background-color .3s;
+    transition:         background-color .3s;
+
+}
+
+.download {
+  background-color: #111111;
+  font-size: 1.7em;
+  padding:15px;
+  color: white;
+  -webkit-transition: background-color .5s;
+    -moz-transition:    background-color .5s;
+    -ms-transition:     background-color .5s;
+    -o-transition:      background-color .5s;
+    transition:         background-color .5s;
+
+}
+
+.connect_button:hover {
+  color:  #111111;
+  background-color: #16ffbd;
+}
+
+.download:hover {
+  color:  #111111;
+  background-color: #16ffbd;
+}
+
+
+.footer {
+  position: absolute;
+  border-top: 1px dotted #111111;
+  right: 0;
+  bottom: -115px;
+  left: 0;
+  padding: 1rem;
+  margin: 0 5% 0 5%;
+
+}
+
+.footer p {
+  text-align: center;
+  color: #111111;
+  font-size: 16px;
+}
+
+@media only screen and (max-width: 1180px) {
+    body{
+  overflow-y:visible;
+}
+}
+
+  @media only screen and (max-width: 900px) {
+
+  .left-half {
+    width: 90%;
+    margin-bottom: 100px;
+    font-size: .5em;
+  }
+
+  .right-half img {
+  padding-left: 0%;
+  width: 250px;
+  text-align: center;
+  float: none;
+}
+
+.right-half {
+  margin: 44px 0 0 0;
+  padding-top: 0px;
+  padding-right: 0%;
+  padding-left: 0%;
+}
+
+  }
+
+  @media only screen and (max-width: 460px) {
+    .left-half{
+      margin-top: 88px;
+    }
+
+      .right-half img {
+        width: 200px;
+      }
+  }
+
