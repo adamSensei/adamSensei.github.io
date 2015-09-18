@@ -24,7 +24,6 @@ position: absolute;
 }
 
 .select {
-	font-family:"Apercu Light", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:200; font-style:normal;
 	font-size: 12px;
 	border: 2px solid white;
 	color: white;
@@ -59,6 +58,7 @@ position: absolute;
 
 .img90 img {
 	width: 100%;
+	display: inherit;
 }
 
 .section_case {
@@ -91,21 +91,18 @@ position: absolute;
 }
 
 .section-title {
-	padding-top: 2%;
 	margin-bottom: 10px;
 	color:#111111;
 	font-size: 3rem;
 }
 
 .case-title {
-	padding-top: 2%;
 	margin-bottom: 10px;
 	color:#111111;
 	font-size: 2rem;
 }
 
 .sub-title {
-	padding-top: 2%;
 	margin-bottom: 10px;
 	color:#111111;
 	font-size: 2rem;
