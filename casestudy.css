@@ -147,7 +147,6 @@ p {
 
 .nav-right .select {
 	right: 14em;
-	padding-top: 10%;
 }
 .img {
 		height: 26em;
@@ -186,11 +185,6 @@ p {
 }
 
 @media only screen and (max-width: 500px) {
-
-.nav-right .select {
-	right: 12em;
-
-}
 .img {
 		height: 20em;
 	}

@@ -89,11 +89,6 @@ body{
   margin: 0 auto;
 }
 
-.logo {
-  height: 30px;
-  margin-top: 7px;
-}
-
 .nav-right {
   font-family:"Apercu Bold", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
   float: right;
@@ -131,7 +126,7 @@ body{
   text-transform: uppercase;
   font-weight: 900;
   overflow: hidden;
-  color: #BABABA;
+  color: #D3D3D3;
 }
 
 .link--e:hover {
@@ -180,7 +175,7 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 6.4em;
+	font-size: 5.8em;
 }
 p{
 	font-size: 2em;
@@ -268,7 +263,7 @@ p{
 }
 #menu li a,
 #menu li.active a{
-	padding: 4px 4px;
+	padding: 6px 6px;
 	display:block;
 }
 #menu li.active a{
@@ -364,10 +359,6 @@ border-radius: 100px;
 #menu{
   bottom: 14px;
 }
-
-.nav-right {
-    margin-top: 14px;
-  }
 
 .iphone {
 	height: 20em;
