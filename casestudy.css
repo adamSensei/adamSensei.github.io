@@ -24,7 +24,7 @@ position: absolute;
 }
 
 .select {
-	font-family:"Apercu Light", Calibri, Roboto, sans-serif; font-size-adjust:0.508; font-weight:200; font-style:normal;
+	font-family:"Apercu Light", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:200; font-style:normal;
 	font-size: 12px;
 	border: 2px solid white;
 	color: white;
