@@ -38,7 +38,7 @@ caption,th {
 
 }
 h1,h2,h3,h4,h5,h6 {
-	font-family:"Apercu Bold", Calibri, Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
+	  font-family:"Apercu Bold", Calibri, Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
     margin:0;
     padding:0;
     color: #111111;
@@ -91,6 +91,7 @@ body{
 }
 
 .nav-right {
+  font-family:"Apercu Bold", Calibri, Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
   float: right;
   margin-top: 16px;
 }
