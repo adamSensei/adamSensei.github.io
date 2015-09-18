@@ -24,7 +24,7 @@ position: absolute;
 }
 
 .select {
-	font-size: 12px;
+ 	font-size: 12px;
 	border: 2px solid white;
 	color: white;
 	background-color: #111111;
@@ -65,7 +65,6 @@ position: absolute;
 	margin: 0 auto;
 	text-align: center;
 	padding-top: 33px;
-	padding-bottom: 44px;
 }
 
 .part {
@@ -114,6 +113,10 @@ p {
 	font-size: 1.2em;
 }
 
+.bold {
+	 font-family:"Apercu Bold", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
+}
+
 
 .footer {
   position: absolute;
@@ -151,7 +154,6 @@ p {
 	}
 .section_case {
 	padding-top: 88px;
-	padding-bottom: 44px;
 }
 .left-half {
 	width: 100%;

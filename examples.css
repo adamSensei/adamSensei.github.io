@@ -180,7 +180,7 @@ body{
 	position: relative;
 }
 h1{
-	font-size: 5.8em;
+	font-size: 6.4em;
 }
 p{
 	font-size: 2em;
@@ -288,6 +288,11 @@ p{
 border-radius: 100px;
 }
 
+
+@media only screen and (max-width: 1300px) {
+
+  }
+
 @media only screen and (max-width: 1180px) {
   .intro h1 {
    font-size: 4em;
@@ -353,8 +358,16 @@ border-radius: 100px;
 }
 
 .intro {
-	bottom: 5.5%;
+	bottom: 14px;
 }
+
+#menu{
+  bottom: 14px;
+}
+
+.nav-right {
+    margin-top: 14px;
+  }
 
 .iphone {
 	height: 20em;
@@ -371,5 +384,6 @@ border-radius: 100px;
   .iphone, .mac {
     height: 18em;
   }
+
  }
 
