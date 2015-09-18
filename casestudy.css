@@ -167,6 +167,14 @@ p {
 }
 }
 
+
+@media only screen and (max-width: 770px) {
+.select:hover {
+	background-color: #111111;
+	color: white;
+}
+}
+
 @media only screen and (max-width: 700px) {
 
 p {
