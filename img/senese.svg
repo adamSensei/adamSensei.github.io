@@ -4,9 +4,7 @@
     <title>S</title>
     <desc>Created with Sketch.</desc>
     <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
-        <text id="S" sketch:type="MSTextLayer" font-family="Apercu Pro" font-size="36" font-weight="bold" fill="#111111">
-            <tspan x="-1" y="26">S</tspan>
-        </text>
+    <g id="Elements" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" sketch:type="MSPage">
+        <path d="M15.92,5.084 C14.552,2.168 11.996,0.512 8.648,0.512 C4.688,0.512 1.772,3.536 1.772,7.352 C1.772,15.344 12.32,14.516 12.32,18.692 C12.32,20.996 10.988,21.968 9.044,21.968 C6.308,21.968 4.796,19.556 4.04,16.856 L0.26,19.232 C1.052,23.084 4.364,26.288 8.936,26.288 C13.76,26.288 17,23.372 17,18.44 C17,10.952 6.236,11.528 6.236,7.136 C6.236,5.804 7.28,4.832 8.648,4.832 C10.124,4.832 11.168,5.624 12.14,7.496 L15.92,5.084 Z" id="S" fill="#FFFFFF" sketch:type="MSShapeGroup"></path>
     </g>
 </svg>

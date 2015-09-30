@@ -5,6 +5,10 @@
     visibility: hidden;
 }
 
+html {
+  background-color: #111111;
+}
+
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
 form,fieldset,input,textarea,p,blockquote,th,td {
     padding: 0;
@@ -12,7 +16,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 }
 a{
 	text-decoration:none;
-	color: #111111;
+	color: white;
 }
 
 a:hover {
@@ -45,7 +49,7 @@ h1,h2,h3,h4,h5,h6 {
 	  font-family:"Apercu Bold", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
     margin:0;
     padding:0;
-    color: #111111;
+    color: white;
     z-index: 100;
 }
 q:before,q:after {
@@ -63,11 +67,11 @@ body{
 }
 
 ::selection {
-  color:  #111111; /* WebKit/Blink Browsers */
+  color:  white; /* WebKit/Blink Browsers */
   background-color:  #16ffbd;
 }
 ::-moz-selection {
-  color:  #111111; /* Gecko Browsers */
+  color:  white; /* Gecko Browsers */
   background-color:  #16ffbd;
 }
 
@@ -80,13 +84,18 @@ body{
   z-index: 999;
   width: 100%;
   height: 44px;
-  background-color: white;
+  background-color: #111111;
   box-shadow: 0 0 10px rgba(0,0,0,.045);
 }
 
 .nav-span {
   width: 90%;
   margin: 0 auto;
+}
+
+img.logo {
+  height: 33px;
+  padding-top: 6px;
 }
 
 .nav-right {
@@ -106,7 +115,7 @@ body{
 }
 
 .link.selected {
-  color: #111111;
+  color: white;
 }
 
 .link {
@@ -130,7 +139,7 @@ body{
 }
 
 .link--e:hover {
-  color: #111111;
+  color: white;
 }
 
 .link--e::after {
@@ -141,7 +150,7 @@ body{
   top: 90%;
   margin-top: -8px;
   right: 0;
-  background: white;
+  background: #111111;
   transform: translate3d(-100%,0,0);
   transition: transform 0.3s;
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
@@ -178,8 +187,8 @@ h1{
 	font-size: 5.8em;
 }
 p{
-	font-size: 2em;
-	color: #111111;
+	font-size: 1.7em;
+	color: #959595;
 }
 
 .intro {
@@ -217,7 +226,7 @@ p{
 
 .intro p{
 	margin: 0 auto;
-	font-size: 2em;
+	font-size: 1.5em;
 }
 .section{
 	text-align:right;
@@ -237,8 +246,8 @@ p{
 
 #menu li {
 	display:inline-block;
-	margin: 5px;
-	border: 1px solid #111111;
+	margin: 10px 0 0 16px;
+	border: 1px solid white;
 	-webkit-transition: background-color .5s;
     -moz-transition:    background-color .5s;
     -ms-transition:     background-color .5s;
@@ -247,27 +256,27 @@ p{
 	
 }
 #menu li.active{
-	background:#111111;
+	background:white;
 	color: #f9f9f9;
 }
 #menu li a{
 	text-decoration:none;
-	color: #111111;
+	color: white;
 }
 #menu li.active a:hover{
-	color: #111111;
+	color: white;
 }
 #menu li:hover{
-	background: #111111;
+	background: white;
 
 }
 #menu li a,
 #menu li.active a{
-	padding: 6px 6px;
+	padding: 4px 4px;
 	display:block;
 }
 #menu li.active a{
-	color: #111111;
+	color: white;
 }
 #menu{
 	position:fixed;

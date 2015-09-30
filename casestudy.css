@@ -1,7 +1,7 @@
 html {
   height: 100%;
   box-sizing: border-box;
-  background-color: white;
+  background-color: #111111;
 }
 
 html body{
@@ -25,7 +25,7 @@ position: absolute;
 
 .select {
  	font-size: 12px;
-	border: 2px solid white;
+	border: 2px solid #111111;
 	color: white;
 	background-color: #111111;
 	cursor: pointer;
@@ -68,7 +68,7 @@ position: absolute;
 }
 
 .part {
-  background-color: white;
+  background-color: #111111;
 	width: 90%;
     margin: 0 auto;
 }
@@ -91,24 +91,24 @@ position: absolute;
 
 .section-title {
 	margin-bottom: 10px;
-	color:#111111;
+	color: white;
 	font-size: 3rem;
 }
 
 .case-title {
 	margin-bottom: 10px;
-	color:#111111;
+	color: white;
 	font-size: 2rem;
 }
 
 .sub-title {
 	margin-bottom: 10px;
-	color:#111111;
+	color:white;
 	font-size: 2rem;
 }
 
 p {
-	color:#111111;
+	color:#959595;
 	line-height: 1.5em;
 	font-size: 1.2em;
 }
@@ -120,7 +120,7 @@ p {
 
 .footer {
   position: absolute;
-  border-top: 1px dotted #111111;
+  border-top: 1px dotted white;
   right: 0;
   bottom: -100px;
   left: 0;
@@ -131,7 +131,7 @@ p {
 
 .footer p {
   text-align: center;
-  color: #111111;
+  color: white;
   font-size: 16px;
 }
 
