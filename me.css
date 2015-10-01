@@ -16,7 +16,7 @@ html {
 
 .left-half {
   margin: 0 auto;
-  margin-top: 88px;
+  margin-top: 66px;
   max-width: 560px;
   font-size: .55em;
   background-color: #111111;
@@ -131,7 +131,7 @@ p a.twitter:hover {
   position: absolute;
   border-top: 1px dotted white;
   right: 0;
-  bottom: -70px;
+  bottom: -100px;
   left: 0;
   padding: 1rem;
   margin: 0 5% 0 5%;
