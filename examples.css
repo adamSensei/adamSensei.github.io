@@ -353,10 +353,6 @@ border-radius: 100px;
 #menu{
   bottom: 14px;
 }
-
-.iphone {
-	height: 20em;
-}
  .center a {
   font-size: .3em;
 }
@@ -366,8 +362,8 @@ border-radius: 100px;
 
 @media only screen and (max-width: 380px) {
 
-  .iphone, .mac {
-    height: 18em;
+.img {
+    height: 20em;
   }
 
  }
