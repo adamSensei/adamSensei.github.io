@@ -101,6 +101,7 @@ img.logo {
   font-family:"Apercu Bold", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
   float: right;
   margin-top: 16px;
+  letter-spacing: -0.5px;
 }
 
 .nav-right li {
@@ -188,6 +189,11 @@ h1{
 p{
 	font-size: 1.7em;
 	color: #959595;
+ letter-spacing: -0.4px;
+}
+
+.intro h1, .center h1 {
+    letter-spacing: -3.5px;
 }
 
 .intro {
