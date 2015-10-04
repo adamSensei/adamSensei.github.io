@@ -63,7 +63,6 @@ abbr,acronym { border: 0;
  * --------------------------------------- */
 body{
 	  font-family:"Apercu Light", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:200; font-style:normal;
-	  max-width: 1600px;
 }
 
 ::selection {
@@ -193,14 +192,16 @@ p{
 
 .intro {
 	position: absolute;
-	right: 5%;
+  text-align: left;
+	left: 5%;
 	bottom: 5%;
 	z-index: 100;
 }
 
 .section .center {
-	bottom: 40%;
-	padding-right: 5%;
+  text-align: left;
+	bottom: 35%;
+	padding-left: 5%;
 }
 
 .center p {
@@ -225,24 +226,20 @@ p{
 	font-size: 1.5em;
 }
 .section{
-	text-align:right;
+
+	text-align:center;
 /*	padding-right: 5%;*/
 	position: relative;
 }
 
 .img {
    height: 35em;
-   margin-right: 30%;
-}
-
-.mac {
-	margin-right:40%;
 }
 
 
 #menu li {
-	display:inline-block;
-	margin: 10px 0 0 16px;
+	display:block;
+	margin: 12px 0 0 0px;
 	border: 1px solid white;
 	-webkit-transition: background-color .5s;
     -moz-transition:    background-color .5s;
@@ -277,9 +274,8 @@ p{
 #menu{
 	position:fixed;
 	bottom:5%;
-	left:5%;
+	right:5%;
 	z-index: 70;
-	width: 10px;
 	padding: 0;
 	margin:0;
 }
@@ -319,6 +315,7 @@ border-radius: 100px;
 .link--e::after {
   background: transparent;
 }
+}
 
  @media only screen and (max-width: 700px) {
  	.intro h1 {
@@ -333,11 +330,11 @@ border-radius: 100px;
    height: 25em;
 }
   .center a {
-	font-size: .45em;
+	font-size: .5em;
 }
 
   .center p {
- font-size: 1.6em;
+ font-size: 1.4em;
 }
 
 
@@ -354,7 +351,14 @@ border-radius: 100px;
   bottom: 14px;
 }
  .center a {
-  font-size: .3em;
+  font-size: .4em;
+}
+
+img {
+  margin-right: default;
+}
+.center h1{
+  font-size: 1.7em;
 }
 
 }

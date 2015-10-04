@@ -599,11 +599,9 @@ input#search {
   margin-right: 1.4em;
 }
 
-.header a img {
-  width: 200px;
+.header_text {
+  height: 5.4em;
 }
-
-
 }
 
 

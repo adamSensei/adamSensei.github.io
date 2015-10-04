@@ -61,6 +61,12 @@ position: absolute;
 	display: inherit;
 }
 
+.img700 img {
+	max-width: 700px;
+	display: inherit;
+	margin: 0 auto;
+}
+
 .section_case {
 	margin: 0 auto;
 	text-align: center;
@@ -198,6 +204,9 @@ p {
 	background-color: #111111;
 	color: white;
 }
+.img700 img {
+	width: 100%;
+}
 }
 
 @media only screen and (max-width: 700px) {
@@ -210,6 +219,15 @@ p {
 
 @media only screen and (max-width: 500px) {
 .img {
-		height: 20em;
+		height: 17em;
 	}
+.section-title {
+	font-size: 2.2em;
+}
+.sub-title, .case-title{
+	font-size: 1.5em;
+}
+.nav-right .select {
+    right: 12em;
+}
 }
