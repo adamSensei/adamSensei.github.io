@@ -194,7 +194,7 @@ p{
 }
 
 .intro h1, .center h1 {
-  letter-spacing: -3.5px;
+  letter-spacing: -4px;
 }
 
 .intro {
@@ -370,7 +370,7 @@ img {
   font-size: 1.7em;
 }
 .intro h1, .center h1 {
-  letter-spacing: -.5px;
+  letter-spacing: -1px;
 }
 }
 
