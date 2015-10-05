@@ -46,7 +46,7 @@ caption,th {
 
 }
 h1,h2,h3,h4,h5,h6 {
-	  font-family:"Apercu Bold", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
+	  font-family:"Apercu Bold", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
     margin:0;
     padding:0;
     color: white;
@@ -62,7 +62,7 @@ abbr,acronym { border: 0;
 /* Custom CSS
  * --------------------------------------- */
 body{
-	  font-family:"Apercu Light", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:200; font-style:normal;
+	  font-family:"Apercu Light", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:200; font-style:normal;
 }
 
 ::selection {
@@ -90,6 +90,7 @@ body{
 .nav-span {
   width: 90%;
   margin: 0 auto;
+  border-bottom: 1px solid white;
 }
 
 img.logo {
@@ -98,7 +99,7 @@ img.logo {
 }
 
 .nav-right {
-  font-family:"Apercu Bold", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
+  font-family:"Apercu Bold", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
   float: right;
   margin-top: 16px;
   letter-spacing: -0.5px;
@@ -176,7 +177,6 @@ img.logo {
 
 /*NAV BAR END*/
 
-
 .wrap{
 	margin-left: auto;
 	margin-right: auto;
@@ -189,11 +189,11 @@ h1{
 p{
 	font-size: 1.7em;
 	color: #959595;
- letter-spacing: -0.4px;
+ letter-spacing: -0.2px;
 }
 
 .intro h1, .center h1 {
-    letter-spacing: -3.5px;
+  letter-spacing: -3.5px;
 }
 
 .intro {
@@ -342,7 +342,9 @@ border-radius: 100px;
   .center p {
  font-size: 1.4em;
 }
-
+.intro h1, .center h1 {
+  letter-spacing: -2px;
+}
 
  }
 
@@ -366,7 +368,9 @@ img {
 .center h1{
   font-size: 1.7em;
 }
-
+.intro h1, .center h1 {
+  letter-spacing: -.5px;
+}
 }
 
 
