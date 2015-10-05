@@ -297,16 +297,13 @@ border-radius: 100px;
   }
 
 @media only screen and (max-width: 1180px) {
-  .intro h1 {
+  .intro h1,.center h1 {
    font-size: 4em;
-  }
-  .intro p {
-  	font-size: 1.8em;
   }
 }
 
 @media only screen and (max-width: 900px) {
-  .intro h1 {
+  .intro h1,.center h1 {
    font-size: 2.7em;
   }
   .intro p {
@@ -315,6 +312,9 @@ border-radius: 100px;
 
 .center a {
 	font-size: .85em;
+}
+.intro h1, .center h1 {
+  letter-spacing: -2.5px;
 }
 }
 
@@ -325,7 +325,7 @@ border-radius: 100px;
 }
 
  @media only screen and (max-width: 700px) {
- 	.intro h1 {
+ 	.intro h1, .center h1 {
  	font-size: 2em;
  	}
 
