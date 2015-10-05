@@ -120,7 +120,7 @@ p {
 }
 
 .bold {
-	 font-family:"Apercu Bold", 'Helvetica', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
+	 font-family:"Apercu Bol", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
 }
 
 
@@ -182,7 +182,7 @@ p a:hover {
 }
 
 .grey {
-	background-color: white;
+	background-color: #f9f9f9;
 }
 
 
