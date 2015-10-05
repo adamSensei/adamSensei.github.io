@@ -82,7 +82,7 @@ body{
   left: 0;
   z-index: 999;
   width: 100%;
-  height: 44px;
+  height: 46px;
   background-color: #111111;
   box-shadow: 0 0 10px rgba(0,0,0,.045);
 }
@@ -94,8 +94,9 @@ body{
 }
 
 img.logo {
-  height: 33px;
-  padding-top: 6px;
+  height: 30px;
+  padding-top: 8px;
+  margin-bottom: 4px;
 }
 
 .nav-right {

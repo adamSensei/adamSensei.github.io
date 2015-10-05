@@ -167,6 +167,20 @@ p {
 	text-align: center;
 }
 
+p a {
+	border-bottom: 1px dotted;
+	-webkit-transition: color .3s;
+    -moz-transition:    color .3s;
+    -ms-transition:     color .3s;
+    -o-transition:      color .3s;
+    transition:         color .3s;
+}
+
+p a:hover {
+	color: #16ffbd;
+
+}
+
 
 @media only screen and (min-width: 900px) {
 .img {
