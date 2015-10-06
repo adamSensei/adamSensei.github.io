@@ -46,7 +46,7 @@ caption,th {
 
 }
 h1,h2,h3,h4,h5,h6 {
-	  font-family:"Aperc Bold", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
+	  font-family:"Apercu Bold", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
     margin:0;
     padding:0;
     color: white;
@@ -100,7 +100,7 @@ img.logo {
 }
 
 .nav-right {
-  font-family:"Aperc Bold", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
+  font-family:"Apercu Bold", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
   float: right;
   margin-top: 16px;
   letter-spacing: -0.5px;
