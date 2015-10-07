@@ -35,9 +35,9 @@ html {
 }
 
 .bio h4 {
-  padding: 33px 0 0 0%;
+  padding: 22px 0 0 0%;
   color: white;
-  font-size: 2.5em;
+  font-size: 2.2em;
 }
 
 .bio p {
@@ -80,11 +80,11 @@ p a.twitter:hover {
   width: 100%;
   margin: 0 auto;
   text-align: center;
-  -webkit-transition: color .3s;
-    -moz-transition:    color .3s;
-    -ms-transition:     color .3s;
-    -o-transition:      color .3s;
-    transition:         color .3s;
+  -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
 }
 
 .buttons a {
@@ -156,7 +156,7 @@ p a.twitter:hover {
   .left-half {
     width: 90%;
     margin-bottom: 100px;
-    font-size: .5em;
+    font-size: .7em;
   }
 
   .right-half img {
