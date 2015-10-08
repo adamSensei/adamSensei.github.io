@@ -77,6 +77,10 @@ position: absolute;
 	width: 25%;
 }
 
+.pad-top {
+	padding-top: 3em;
+}
+
 .section_case {
 	margin: 0 auto;
 	text-align: center;
