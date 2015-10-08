@@ -149,6 +149,7 @@ p a.twitter:hover {
 }
 
 .bg {
+  background-color: #111111;
    background: url(img/bg.png) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
