@@ -251,6 +251,10 @@ p {
 .mock-pic{
 	width: 40%;
 }
+
+.pad-top{
+	padding-top: 0em;
+}
 }
 
 @media only screen and (max-width: 500px) {
