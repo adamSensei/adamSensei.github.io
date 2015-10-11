@@ -186,7 +186,7 @@ p a.twitter:hover {
 
   @media only screen and (max-width: 350px) {
     .connect_button,.download {
-     font-size: 1.2em;
+     font-size: 1em;
     }
   }
 
