@@ -6,7 +6,7 @@
 }
 
 html {
-  background-color: #111111;
+  background-color: white;
 }
 
 body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,
@@ -16,7 +16,7 @@ form,fieldset,input,textarea,p,blockquote,th,td {
 }
 a{
 	text-decoration:none;
-	color: white;
+	color: #111111;
 }
 
 a:hover {
@@ -49,7 +49,7 @@ h1,h2,h3,h4,h5,h6 {
 	  font-family:"Apercu Bold", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
     margin:0;
     padding:0;
-    color: white;
+    color: #111111;
     z-index: 100;
 }
 q:before,q:after {
@@ -66,12 +66,12 @@ body{
 }
 
 ::selection {
-  color:  #111111; /* WebKit/Blink Browsers */
-  background-color:  white;
+  color:  white; /* WebKit/Blink Browsers */
+  background-color:  #111111;
 }
 ::-moz-selection {
-  color:  #111111; /* Gecko Browsers */
-  background-color:  white;
+  color:  white; /* Gecko Browsers */
+  background-color:  #111111;
 }
 
 /*NAV BAR START*/
@@ -83,14 +83,13 @@ body{
   z-index: 999;
   width: 100%;
   height: 48px;
-  background-color: #111111;
-  box-shadow: 0 0 10px rgba(0,0,0,.045);
+  background-color: white;
 }
 
 .nav-span {
   width: 90%;
   margin: 0 auto;
-  border-bottom: 1px solid white;
+  border-bottom: 1px solid #111111;
 }
 
 img.logo {
@@ -117,7 +116,7 @@ img.logo {
 }
 
 .link.selected {
-  color: white;
+  color: #111111;
 }
 
 .link {
@@ -141,7 +140,7 @@ img.logo {
 }
 
 .link--e:hover {
-  color: white;
+  color: #111111;
 }
 
 .link--e::after {
@@ -152,7 +151,7 @@ img.logo {
   top: 90%;
   margin-top: -7px;
   right: 0;
-  background: #111111;
+  background: white;
   transform: translate3d(-100%,0,0);
   transition: transform 0.3s;
   transition-timing-function: cubic-bezier(0.7,0,0.3,1);
@@ -241,7 +240,7 @@ p{
 #menu li {
 	display:block;
 	margin: 12px 0 0 0px;
-	border: 1px solid white;
+	border: 1px solid #111111;
 	-webkit-transition: background-color .5s;
     -moz-transition:    background-color .5s;
     -ms-transition:     background-color .5s;
@@ -250,18 +249,18 @@ p{
 	
 }
 #menu li.active{
-	background:white;
+	background:#111111;
 	color: #f9f9f9;
 }
 #menu li a{
 	text-decoration:none;
-	color: white;
+	color: #111111;
 }
 #menu li.active a:hover{
-	color: white;
+	color: #111111;
 }
 #menu li:hover{
-	background: white;
+	background: #111111;
 
 }
 #menu li a,
@@ -270,7 +269,7 @@ p{
 	display:block;
 }
 #menu li.active a{
-	color: white;
+	color: #111111;
 }
 #menu{
 	position:fixed;

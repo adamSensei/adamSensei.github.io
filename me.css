@@ -11,7 +11,7 @@ html body {
 html {
   height: 100%;
   box-sizing: border-box;
-  background-color: #111111;
+  background-color: white;
 }
 
 .left-half {
@@ -36,7 +36,7 @@ html {
 
 .bio h4 {
   padding: 22px 0 0 0%;
-  color: white;
+  color: #111111;
   font-size: 2.2em;
 }
 
@@ -48,7 +48,7 @@ html {
 }
 
 p a {
-  color: white;
+  color: #111111;
   border-bottom: 1px dotted;
   -webkit-transition: color .3s;
     -moz-transition:    color .3s;
@@ -92,10 +92,10 @@ p a.twitter:hover {
 
 }
 .connect_button {
-  background-color: white;
+  background-color: #111111;
   font-size: 1.7em;
   padding:15px;
-  color: #111111;
+  color: white;
   -webkit-transition: background-color .3s;
     -moz-transition:    background-color .3s;
     -ms-transition:     background-color .3s;
@@ -105,10 +105,10 @@ p a.twitter:hover {
 }
 
 .download {
-  background-color: white;
+  background-color: #111111;
   font-size: 1.7em;
   padding:15px;
-  color: #111111;
+  color: white;
   -webkit-transition: background-color .5s;
     -moz-transition:    background-color .5s;
     -ms-transition:     background-color .5s;
@@ -130,7 +130,7 @@ p a.twitter:hover {
 
 .footer {
   position: absolute;
-  border-top: 1px dotted white;
+  border-top: 1px dotted #111111;
   right: 0;
   bottom: -100px;
   left: 0;
@@ -141,7 +141,7 @@ p a.twitter:hover {
 
 .footer p {
   text-align: center;
-  color: white;
+  color: #111111;
   font-size: 16px;
 }
 
@@ -186,7 +186,7 @@ p a.twitter:hover {
 
   @media only screen and (max-width: 350px) {
     .connect_button,.download {
-     font-size: 1.3em;
+     font-size: 1.2em;
     }
   }
 
