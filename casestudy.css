@@ -82,6 +82,11 @@ position: absolute;
 	width: 25%;
 }
 
+figcaption {
+	text-align: center;
+	color: #959595;
+}
+
 .pad-top {
 	padding-top: 3em;
 }
