@@ -93,7 +93,7 @@ body{
 }
 
 img.logo {
-  height: 15px;
+  height: 30px;
   padding-top: 9px;
   margin-bottom: 4px;
 }
@@ -101,7 +101,7 @@ img.logo {
 .nav-right {
   font-family:"Apercu Bold", 'Helvetica Neue', Roboto, sans-serif; font-size-adjust:0.508; font-weight:bold; font-style:normal;
   float: right;
-  margin-top: 10px;
+  margin-top: 14px;
   letter-spacing: -0.5px;
 }
 
