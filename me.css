@@ -119,12 +119,12 @@ p a.twitter:hover {
 
 .connect_button:hover {
   color:  #111111;
-  background-color: #16ffbd;
+  background-color: #ff0001;
 }
 
 .download:hover {
   color:  #111111;
-  background-color: #16ffbd;
+  background-color: #ff0001;
 }
 
 
@@ -189,4 +189,3 @@ p a.twitter:hover {
      font-size: 1em;
     }
   }
-

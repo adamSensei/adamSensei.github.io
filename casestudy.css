@@ -180,11 +180,11 @@ p {
 }
 
 
-.case-button { 
+.case-button {
 
   background-color: #111111;
   font-size: 1.1em;
-  padding: 15px; 
+  padding: 15px;
   color: white;
   font-weight: bold;
   -webkit-transition: background-color .3s;
@@ -196,7 +196,7 @@ p {
 
 .case-button:hover {
   color:  #111111;
-  background-color: #16ffbd;
+  background-color: #ff0001;
 }
 
 .case-pad {
@@ -215,7 +215,7 @@ p a {
 }
 
 p a:hover {
-	color: #16ffbd;
+	color: #ff0001;
 
 }
 
